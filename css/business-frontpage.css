@@ -11,14 +11,39 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    height: 130px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.secondary-row {
+    height: 400px;
+    background: url('../images/background.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.logo {
+  height: 70px;
+  margin: 0 auto;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.white-text {
+  color: white;
+  font-size: 20px;
+}
+
+.address {
+    margin-top: 100px;
+}
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
